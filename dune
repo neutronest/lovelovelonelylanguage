@@ -1,2 +1,5 @@
-(executable 
-    (name hello_world))
+(executable
+    (name hello_world)
+    (libraries bitstring)
+    (preprocess (pps bitstring.ppx))
+    )
