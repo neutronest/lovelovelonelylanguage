@@ -1,4 +1,3 @@
-open Bitstring;;
 
 type expr = 
   | Def | Extern

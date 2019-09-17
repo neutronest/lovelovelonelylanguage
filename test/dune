@@ -1,0 +1,4 @@
+(test 
+    (name lexer_test)
+    (libraries LLM oUnit)
+    (preprocess (pps bitstring.ppx)))
